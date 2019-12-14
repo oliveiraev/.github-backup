@@ -4,6 +4,7 @@
 !TAGS/
 !tags/
 $RECYCLE.BIN/
+**/.terraform/*
 **/CVS/*
 *.7z
 *.bak
@@ -135,6 +136,9 @@ $RECYCLE.BIN/
 *.stTheme.cache
 *.stackdump
 *.tar
+*.tfstate
+*.tfstate.*
+*.tfvars
 *.tgz
 *.tmp
 *.txz
@@ -144,6 +148,8 @@ $RECYCLE.BIN/
 *.xpi
 *.xz
 *.zip
+*_override.tf
+*_override.tf.json
 *~
 *~.nib
 .*-version
