@@ -175,6 +175,8 @@ $RECYCLE.BIN/
 *.tmPreferences.cache
 *.tmlanguage.cache
 *.tmp
+*.tmproj
+*.tmproject
 *.txz
 *.userprefs
 *.usertasks
