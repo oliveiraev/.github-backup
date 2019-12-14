@@ -164,12 +164,16 @@ $RECYCLE.BIN/
 *.ssleay
 *.stTheme.cache
 *.stackdump
+*.sublime-project
+*.sublime-workspace
 *.swp
 *.tar
 *.tfstate
 *.tfstate.*
 *.tfvars
 *.tgz
+*.tmPreferences.cache
+*.tmlanguage.cache
 *.tmp
 *.txz
 *.userprefs
@@ -345,11 +349,20 @@ GPATH
 GRTAGS
 GSYMS
 GTAGS
+GitHub.sublime-settings
 Icon[]
 Makefile
 Makefile.in
 MigrationBackup/
 Network Trash Folder
+Package Control.ca-bundle
+Package Control.ca-certs/
+Package Control.ca-list
+Package Control.cache/
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
 TAGS
 Temporary Items
 Thumbs.db
