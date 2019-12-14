@@ -1,6 +1,7 @@
 # -*- coding: utf-8; mode: gitignore; -*-
 # vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
 
+!*.svg  # comment out if you don't need vector files
 !TAGS/
 !tags/
 $RECYCLE.BIN/
@@ -365,10 +366,18 @@ Package Control.last-run
 Package Control.merged-ca-bundle
 Package Control.system-ca-bundle
 Package Control.user-ca-bundle
+Session.vim
+Sessionx.vim
 TAGS
 Temporary Items
 Thumbs.db
 Thumbs.db:encryptable
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]*.un~
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
 [Dd]esktop.ini
 [Ee]xpress/
 [Ll]og/
