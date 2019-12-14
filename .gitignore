@@ -7,6 +7,8 @@ $RECYCLE.BIN/
 **/.terraform/*
 **/CVS/*
 *.7z
+*.a
+*.app/
 *.bak
 *.beam
 *.bim.layout
@@ -45,11 +47,14 @@ $RECYCLE.BIN/
 *.dex
 *.dfsl
 *.diff
+*.dll
 *.dmg
+*.dylib
 *.egg
 *.elc
 *.esproj
 *.evcd
+*.exe
 *.fsdb
 *.gem
 *.gho
@@ -73,6 +78,9 @@ $RECYCLE.BIN/
 *.lisp-temp
 *.lnk
 *.log
+*.lps
+*.lrs
+*.lrt
 *.lzma
 *.mno
 *.msi
