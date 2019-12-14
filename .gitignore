@@ -195,6 +195,9 @@ $RECYCLE.BIN/
 .cask/
 .com.apple.timemachine.donotpresent
 .directory
+.dropbox
+.dropbox.attr
+.dropbox.cache
 .fseventsd
 .fuse_hidden*
 .hg/
