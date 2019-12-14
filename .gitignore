@@ -204,6 +204,7 @@ $RECYCLE.BIN/
 .cask/
 .com.apple.timemachine.donotpresent
 .cproject
+.data/
 .dir-locals.el
 .directory
 .dropbox
@@ -373,6 +374,8 @@ cscope.in.out
 cscope.out
 cscope.po.out
 csrc/
+cwallet.sso.lck
+deploy/
 dist/
 dw_php_codehinting.config
 dwsync.xml
