@@ -310,6 +310,7 @@ CMakeScripts
 CTestTestfile.cmake
 ClientBin/
 DVEfiles/
+EIFGENs
 GPATH
 GRTAGS
 GSYMS
