@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 # vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
 
+!TAGS/
+!tags/
 $RECYCLE.BIN/
 **/CVS/*
 *.7z
@@ -53,6 +55,7 @@ $RECYCLE.BIN/
 .DocumentRevisions-V100
 .LSOverride
 .Spotlight-V100
+.TAGS
 .TemporaryItems
 .Trash-*
 .Trashes
@@ -143,11 +146,16 @@ CMakeScripts
 CTestTestfile.cmake
 ClientBin/
 DVEfiles/
+GPATH
+GRTAGS
+GSYMS
+GTAGS
 Icon[]
 Makefile
 Makefile.in
 MigrationBackup/
 Network Trash Folder
+TAGS
 Temporary Items
 Thumbs.db
 Thumbs.db:encryptable
