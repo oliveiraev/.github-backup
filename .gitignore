@@ -1,20 +1,50 @@
 # -*- coding: utf-8; mode: gitignore; -*-
 # vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
 
+!**/[Pp]ackages/build/
 !*.svg  # comment out if you don't need vector files
+!.axoCover/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!?*.[Cc]ache/
 !TAGS/
 !tags/
 $RECYCLE.BIN/
+$tf/
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.HTMLClient/GeneratedArtifacts
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
 **/.terraform/*
 **/CVS/*
+**/[Pp]ackages/*
 **/nbproject/Makefile-*.mk
 **/nbproject/Package-*.bash
 **/nbproject/private/
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+*- [Bb]ackup.rdl
 *.7z
+*.DotSettings.user
+*.GhostDoc.xml
+*.VC.VC.opendb
+*.VC.db
+*.VisualState.xml
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.[Rr]e[Ss]harper
 *.a
 *.app/
+*.appx
+*.appxbundle
+*.appxupload
+*.aps
 *.asv
 *.autosave
+*.azurePubxml
 *.bak
 *.beam
 *.bim.layout
@@ -55,7 +85,9 @@ $RECYCLE.BIN/
 *.diff
 *.dll
 *.dmg
+*.dotCover
 *.dylib
+*.e2e
 *.egg
 *.elc
 *.esproj
@@ -64,8 +96,12 @@ $RECYCLE.BIN/
 *.fsdb
 *.gem
 *.gho
+*.gpState
 *.gz
 *.gzip
+*.ilk
+*.iobj
+*.ipdb
 *.iso
 *.jar
 *.jfm
@@ -88,9 +124,12 @@ $RECYCLE.BIN/
 *.lrs
 *.lrt
 *.lzma
+*.mdf
+*.meta
 *.mex*
 *.mlappinstall
 *.mltbx
+*.mm.*
 *.mno
 *.msi
 *.msix
@@ -137,6 +176,8 @@ $RECYCLE.BIN/
 *.pyc
 *.pydevproject
 *.rar
+*.rdb
+*.rdl.data
 *.rej
 *.rel
 *.res
@@ -167,37 +208,56 @@ $RECYCLE.BIN/
 *.stackdump
 *.sublime-project
 *.sublime-workspace
+*.suo
+*.svclog
 *.swp
 *.tar
 *.tfstate
 *.tfstate.*
 *.tfvars
 *.tgz
+*.tlb
+*.tlh
+*.tli
 *.tmPreferences.cache
 *.tmlanguage.cache
 *.tmp
+*.tmp_proj
 *.tmproj
 *.tmproject
+*.tss
 *.txz
+*.user
+*.userosscache
 *.userprefs
 *.usertasks
+*.vbw
 *.vcd
 *.vpd
 *.vpj
 *.vpw
 *.vpwhist
 *.vpwhistu
+*.vsp
+*.vspscc
+*.vspx
+*.vssscc
 *.vtg
 *.xar
 *.xlk
 *.xpi
+*.xsd.cs
 *.xz
 *.zip
 *.~vsd*
 *_archive
 *_flymake.*
+*_h.h
+*_i.c
 *_override.tf
 *_override.tf.json
+*_p.c
+*_wpftmp.csproj
 *~
 *~.nib
 .*-version
@@ -234,6 +294,7 @@ $RECYCLE.BIN/
 .cask/
 .com.apple.timemachine.donotpresent
 .cproject
+.cr/personal
 .data/
 .dir-locals.el
 .directory
@@ -242,6 +303,7 @@ $RECYCLE.BIN/
 .dropbox.cache
 .externalToolBuilders/
 .factorypath
+.fake/
 .fseventsd
 .fuse_hidden*
 .hg/
@@ -347,17 +409,30 @@ CMakeScripts
 CTestTestfile.cmake
 ClientBin/
 DVEfiles/
+DerivedData/
+DocProject/Help/*.HxC
+DocProject/Help/*.HxT
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+DocProject/buildhelp/
 EIFGENs
+FakesAssemblies/
 GPATH
 GRTAGS
 GSYMS
 GTAGS
+Generated\ Files/
+Generated_Code/
 GitHub.sublime-settings
 Icon[]
 Makefile
 Makefile.in
 MigrationBackup/
 Network Trash Folder
+OpenCover/
 Package Control.ca-bundle
 Package Control.ca-certs/
 Package Control.ca-list
@@ -366,18 +441,33 @@ Package Control.last-run
 Package Control.merged-ca-bundle
 Package Control.system-ca-bundle
 Package Control.user-ca-bundle
+Package.StoreAssociation.xml
+PublishScripts/
+ServiceFabricBackup/
 Session.vim
 Sessionx.vim
+StyleCopReport.xml
 TAGS
 Temporary Items
+TestResult.xml
+Testing
 Thumbs.db
 Thumbs.db:encryptable
+UpgradeLog*.XML
+UpgradeLog*.htm
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
 [._]*.un~
 [._]s[a-rt-v][a-z]
 [._]ss[a-gi-z]
 [._]sw[a-p]
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Bb]uild[Ll]og.*
+[Dd]ebug/
+[Dd]ebugPS/
+[Dd]ebugPublic/
 [Dd]esktop.ini
 [Ee]xpress/
 [Ll]og/
@@ -421,11 +511,15 @@ cscope.in.out
 cscope.out
 cscope.po.out
 csrc/
+csx/
 cwallet.sso.lck
 deploy/
 dist/
+dist/*
+dlldata.c
 dw_php_codehinting.config
 dwsync.xml
+ecf/
 ehthumbs.db
 ehthumbs_vista.db
 flycheck_*.el
@@ -481,6 +575,10 @@ tramp
 ucli.key
 urgReport/
 vc_hdrs.h
+x64/
+x86/
+xcuserdata/
+~$*
 ~$*.doc*
 ~$*.ppt*
 ~$*.xls*
