@@ -155,9 +155,11 @@ $RECYCLE.BIN/
 *.vcd
 *.vpd
 *.xar
+*.xlk
 *.xpi
 *.xz
 *.zip
+*.~vsd*
 *_override.tf
 *_override.tf.json
 *~
@@ -414,3 +416,6 @@ tramp
 ucli.key
 urgReport/
 vc_hdrs.h
+~$*.doc*
+~$*.ppt*
+~$*.xls*
