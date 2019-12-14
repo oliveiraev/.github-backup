@@ -9,6 +9,23 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.stackdump
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DS_Store
+.DocumentRevisions-V100
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+._*
+.apdisk
+.com.apple.timemachine.donotpresent
+.fseventsd
+Icon[]
+Network Trash Folder
+Temporary Items
 Thumbs.db
 Thumbs.db:encryptable
 [Dd]esktop.ini
