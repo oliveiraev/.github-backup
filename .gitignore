@@ -2,6 +2,12 @@
 # vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
 
 $RECYCLE.BIN/
+**/CVS/*
+*.7z
+*.bak
+*.bz2
+*.bzip
+*.bzip2
 *.cab
 *.lnk
 *.msi
@@ -29,6 +35,7 @@ $RECYCLE.BIN/
 .fseventsd
 .fuse_hidden*
 .nfs*
+/CVS/*
 Icon[]
 Network Trash Folder
 Temporary Items
