@@ -146,6 +146,7 @@ $RECYCLE.BIN/
 *.ssleay
 *.stTheme.cache
 *.stackdump
+*.swp
 *.tar
 *.tfstate
 *.tfstate.*
@@ -197,10 +198,13 @@ $RECYCLE.BIN/
 .cache-main
 .cask/
 .com.apple.timemachine.donotpresent
+.cproject
 .directory
 .dropbox
 .dropbox.attr
 .dropbox.cache
+.externalToolBuilders/
+.factorypath
 .fseventsd
 .fuse_hidden*
 .hg/
