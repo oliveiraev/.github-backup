@@ -6,6 +6,9 @@
 $RECYCLE.BIN/
 **/.terraform/*
 **/CVS/*
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/nbproject/private/
 *.7z
 *.a
 *.app/
