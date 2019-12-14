@@ -34,6 +34,10 @@ $RECYCLE.BIN/
 .directory
 .fseventsd
 .fuse_hidden*
+.hg/
+.hgsigs
+.hgsubstate
+.hgtags
 .nfs*
 /CVS/*
 Icon[]
