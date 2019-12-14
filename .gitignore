@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8; mode: gitignore; -*-
 # vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
 
 !TAGS/
@@ -47,6 +47,7 @@ $RECYCLE.BIN/
 *.diff
 *.dmg
 *.egg
+*.elc
 *.evcd
 *.fsdb
 *.gem
@@ -162,6 +163,8 @@ $RECYCLE.BIN/
 *.xz
 *.zip
 *.~vsd*
+*_archive
+*_flymake.*
 *_override.tf
 *_override.tf.json
 *~
@@ -181,6 +184,7 @@ $RECYCLE.BIN/
 .Trash-*
 .Trashes
 .VolumeIcon.icns
+.\#*
 ._*
 .apdisk
 .apt_generated/
@@ -199,6 +203,7 @@ $RECYCLE.BIN/
 .cask/
 .com.apple.timemachine.donotpresent
 .cproject
+.dir-locals.el
 .directory
 .dropbox
 .dropbox.attr
@@ -367,6 +372,7 @@ cscope.in.out
 cscope.out
 cscope.po.out
 csrc/
+dist/
 dw_php_codehinting.config
 dwsync.xml
 ehthumbs.db
