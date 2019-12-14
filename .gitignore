@@ -10,6 +10,7 @@ $RECYCLE.BIN/
 *.bzip2
 *.cab
 *.deb
+*.diff
 *.dmg
 *.egg
 *.evcd
@@ -29,7 +30,9 @@ $RECYCLE.BIN/
 *.msp
 *.ori
 *.orig
+*.patch
 *.rar
+*.rej
 *.rpm
 *.stackdump
 *.tar
