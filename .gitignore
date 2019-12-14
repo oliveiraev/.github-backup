@@ -9,6 +9,8 @@ $RECYCLE.BIN/
 *.7z
 *.a
 *.app/
+*.asv
+*.autosave
 *.bak
 *.beam
 *.bim.layout
@@ -82,6 +84,9 @@ $RECYCLE.BIN/
 *.lrs
 *.lrt
 *.lzma
+*.mex*
+*.mlappinstall
+*.mltbx
 *.mno
 *.msi
 *.msix
