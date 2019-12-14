@@ -10,6 +10,10 @@
 !.vscode/tasks.json
 !?*.[Cc]ache/
 !TAGS/
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
 !tags/
 $RECYCLE.BIN/
 $tf/
@@ -131,6 +135,9 @@ $tf/
 *.mltbx
 *.mm.*
 *.mno
+*.mode1v3
+*.mode2v3
+*.moved-aside
 *.msi
 *.msix
 *.msm
@@ -244,6 +251,8 @@ $tf/
 *.vssscc
 *.vtg
 *.xar
+*.xccheckout
+*.xcscmblueprint
 *.xlk
 *.xpi
 *.xsd.cs
