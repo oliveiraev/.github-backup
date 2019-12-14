@@ -27,6 +27,8 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+*.ori
+*.orig
 *.rar
 *.rpm
 *.stackdump
