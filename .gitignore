@@ -62,6 +62,7 @@ $RECYCLE.BIN/
 .hgsubstate
 .hgtags
 .nfs*
+.svn/
 /CVS/*
 DVEfiles/
 Icon[]
