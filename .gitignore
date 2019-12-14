@@ -72,6 +72,7 @@ $RECYCLE.BIN/
 *.lnk
 *.log
 *.lzma
+*.mno
 *.msi
 *.msix
 *.msm
@@ -361,6 +362,8 @@ cscope.in.out
 cscope.out
 cscope.po.out
 csrc/
+dw_php_codehinting.config
+dwsync.xml
 ehthumbs.db
 ehthumbs_vista.db
 flycheck_*.el
