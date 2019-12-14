@@ -169,6 +169,8 @@ $RECYCLE.BIN/
 *.tgz
 *.tmp
 *.txz
+*.userprefs
+*.usertasks
 *.vcd
 *.vpd
 *.xar
