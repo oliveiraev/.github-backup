@@ -48,6 +48,7 @@ $RECYCLE.BIN/
 *.dmg
 *.egg
 *.elc
+*.esproj
 *.evcd
 *.fsdb
 *.gem
