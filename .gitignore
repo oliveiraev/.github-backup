@@ -48,6 +48,10 @@ $RECYCLE.BIN/
 *.xz
 *.zip
 *~
+*~.nib
+.*-version
+.*.kate-swp
+.*crunch*.local.xml
 .AppleDB
 .AppleDesktop
 .AppleDouble
