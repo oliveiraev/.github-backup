@@ -176,6 +176,11 @@ $RECYCLE.BIN/
 *.usertasks
 *.vcd
 *.vpd
+*.vpj
+*.vpw
+*.vpwhist
+*.vpwhistu
+*.vtg
 *.xar
 *.xlk
 *.xpi
