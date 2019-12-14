@@ -23,6 +23,7 @@ $RECYCLE.BIN/
 .VolumeIcon.icns
 ._*
 .apdisk
+.bzr/
 .com.apple.timemachine.donotpresent
 .directory
 .fseventsd
