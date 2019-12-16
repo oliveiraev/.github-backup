@@ -202,6 +202,8 @@ $tf/
 *.pfx
 *.pgc
 *.pgd
+*.pid
+*.pid.lock
 *.pidb
 *.plg
 *.ppk
@@ -267,6 +269,7 @@ $tf/
 *.tmp_proj
 *.tmproj
 *.tmproject
+*.tsbuildinfo
 *.tss
 *.txz
 *.user
@@ -340,6 +343,7 @@ $tf/
 .cabal-sandbox/
 .cache
 .cache-main
+.cache/
 .cask/
 .com.apple.timemachine.donotpresent
 .cproject
@@ -351,15 +355,21 @@ $tf/
 .dropbox
 .dropbox.attr
 .dropbox.cache
+.dynamodb/
 .elixir_ls/
+.env
+.env.test
+.eslintcache
 .externalNativeBuild
 .externalToolBuilders/
 .factorypath
 .fake/
 .fseventsd
 .fuse_hidden*
+.fusebox/
 .ghc.environment.*
 .gradle/
+.grunt
 .hg/
 .hgsigs
 .hgsubstate
@@ -384,11 +394,13 @@ $tf/
 .lib/
 .loadpath
 .localhistory/
+.lock-wscript
 .metadata
 .mfractor/
 .navigation/
 .nb-gradle/
 .netrwhist
+.next
 .nfs*
 .ninja_deps
 .ninja_log
@@ -419,12 +431,16 @@ $tf/
 .swp.*
 .tags
 .target
+.tern-port
 .tern-project
 .texlipse
 .vagrant
 .vs/
+.vscode-test
 .vscode/*
+.vuepress/dist
 .worksheet
+.yarn-integrity
 .~lock.*#
 /*.gcno
 /.emacs.desktop
@@ -570,7 +586,9 @@ bh_unicode_properties.cache
 bin/
 bin/*
 bld/
+bower_components
 build/
+build/Release
 cabal-dev
 cabal.project.local
 cabal.project.local~
@@ -583,6 +601,7 @@ compile_commands.json
 config.codekit
 config.codekit3
 configs/
+coverage
 crash.log
 cscope.files
 cscope.in.out
@@ -626,6 +645,9 @@ helpsearch*/
 install_manifest.txt
 ipch/
 javadoc/
+jspm_packages/
+lerna-debug.log*
+lib-cov
 lib/
 lib_managed/
 lint/generated/
@@ -633,6 +655,7 @@ lint/intermediates/
 lint/outputs/
 lint/tmp/
 local.properties
+logs
 luac.out
 m4/libtool.m4
 m4/ltoptions.m4
@@ -644,6 +667,7 @@ nCrunchTemp_*
 nbbuild/
 nbdist/
 node_modules/
+npm-debug.log*
 nunit-*.xml
 octave-workspace
 orleans.codegen.cs
@@ -653,6 +677,7 @@ override.tf
 override.tf.json
 packer_cache/
 paket-files/
+pids
 proguard/
 project.fragment.lock.json
 project.lock.json
@@ -660,6 +685,7 @@ project/boot/
 project/plugins/project/
 publish/
 rcf/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 sccprj/
 secring.*
 sftp-config.json
@@ -676,6 +702,7 @@ test-results/
 tmp/
 tmtags
 tramp
+typings/
 ucli.key
 urgReport/
 vc_hdrs.h
@@ -683,6 +710,8 @@ vcs.xml
 x64/
 x86/
 xcuserdata/
+yarn-debug.log*
+yarn-error.log*
 ~$*
 ~$*.doc*
 ~$*.ppt*
