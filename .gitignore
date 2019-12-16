@@ -76,6 +76,8 @@ $tf/
 *.ca
 *.cab
 *.cachefile
+*.changes
+*.chg
 *.chi
 *.chs.h
 *.class
@@ -111,6 +113,7 @@ $tf/
 *.egg-info/
 *.elc
 *.elf
+*.errors
 *.esproj
 *.evcd
 *.eventlog
@@ -135,6 +138,9 @@ $tf/
 *.hp
 *.i*86
 *.ilk
+*.image
+*.img
+*.img7
 *.iml
 *.iobj
 *.ipa
@@ -254,6 +260,7 @@ $tf/
 *.sln.docstates
 *.slxc
 *.smime
+*.sml
 *.snupkg
 *.so
 *.so.*
@@ -532,6 +539,7 @@ $tf/
 /elpa/
 /eshell/history
 /eshell/lastdir
+/github-cache
 /install-sh
 /lib/bundler/man/
 /ltmain.sh
@@ -539,7 +547,10 @@ $tf/
 /min
 /missing
 /network-security.data
+/package-cache
 /pkg/
+/play-cache
+/play-stash
 /pm_to_blib
 /py-compile
 /rdoc/
@@ -613,10 +624,12 @@ Package Control.merged-ca-bundle
 Package Control.system-ca-bundle
 Package Control.user-ca-bundle
 Package.StoreAssociation.xml
+PharoDebug.log
 PublishScripts/
 ServiceFabricBackup/
 Session.vim
 Sessionx.vim
+SqueakDebug.log
 StyleCopReport.xml
 TAGS
 Temporary Items
@@ -740,6 +753,7 @@ freeline.py
 freeline/
 freeline_project_description.json
 gen/
+github-*.zip
 gtags.files
 healthchecksdb
 helpsearch*/
