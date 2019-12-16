@@ -8,6 +8,16 @@ $RECYCLE.BIN/
 **/CVS/*
 *.7z
 *.bak
+*.beam
+*.bim.layout
+*.bim_*.settings
+*.binlog
+*.box
+*.bridgesupport
+*.bs
+*.btm.cs
+*.btp.cs
+*.build.csdef
 *.bz2
 *.bzip
 *.bzip2
@@ -374,6 +384,7 @@ orleans.codegen.cs
 oscrypto-ca-bundle.crt
 override.tf
 override.tf.json
+packer_cache/
 paket-files/
 project.fragment.lock.json
 project.lock.json
