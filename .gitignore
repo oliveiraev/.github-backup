@@ -126,11 +126,13 @@ $tf/
 *.hex
 *.hi
 *.hie
+*.hmap
 *.hp
 *.i*86
 *.ilk
 *.iml
 *.iobj
+*.ipa
 *.ipdb
 *.iso
 *.jar
@@ -328,11 +330,13 @@ $tf/
 .VolumeIcon.icns
 .\#*
 ._*
+.accio/
 .apdisk
 .apt_generated/
 .apt_generated_test/
 .autotools
 .axoCover/*
+.build/
 .buildlog
 .buildpath
 .builds
@@ -495,8 +499,10 @@ CMakeFiles
 CMakeLists.txt.user
 CMakeScripts
 CTestTestfile.cmake
+Carthage/Build/
 ClientBin/
 DVEfiles/
+Dependencies/
 DerivedData/
 DocProject/Help/*.HxC
 DocProject/Help/*.HxT
@@ -633,6 +639,7 @@ fastlane/Preview.html
 fastlane/readme.md
 fastlane/report.xml
 fastlane/screenshots
+fastlane/screenshots/**/*.png
 fastlane/test_output
 flycheck_*.el
 freeline.py
@@ -642,6 +649,7 @@ gen/
 gtags.files
 healthchecksdb
 helpsearch*/
+iOSInjectionProject/
 install_manifest.txt
 ipch/
 javadoc/
@@ -678,6 +686,7 @@ override.tf.json
 packer_cache/
 paket-files/
 pids
+playground.xcworkspace
 proguard/
 project.fragment.lock.json
 project.lock.json
@@ -699,6 +708,7 @@ tags
 target/
 temp/
 test-results/
+timeline.xctimeline
 tmp/
 tmtags
 tramp
