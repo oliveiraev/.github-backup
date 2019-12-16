@@ -501,6 +501,8 @@ $tf/
 /stamp-h1
 /test-driver
 /texinfo.tex
+/vendor/
+/wpcs/*
 /ylwrap
 ASALocalRun/
 AppPackages/
@@ -622,6 +624,7 @@ classes/
 cmake_install.cmake
 codegen/
 compile_commands.json
+composer.phar
 config.codekit
 config.codekit3
 configs/
