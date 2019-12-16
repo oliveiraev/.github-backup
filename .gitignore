@@ -104,6 +104,7 @@ $tf/
 *.esproj
 *.evcd
 *.exe
+*.ez
 *.fasl
 *.fsdb
 *.fx32fsl
@@ -329,6 +330,7 @@ $tf/
 .dropbox
 .dropbox.attr
 .dropbox.cache
+.elixir_ls/
 .externalNativeBuild
 .externalToolBuilders/
 .factorypath
@@ -403,8 +405,10 @@ $tf/
 /*.gcno
 /.emacs.desktop
 /.emacs.desktop.lock
+/.fetch
 /.tgitconfig
 /CVS/*
+/_build
 /aclocal.m4
 /ar-lib
 /auto/
@@ -416,10 +420,14 @@ $tf/
 /config.log
 /config.status
 /config.sub
+/config/*.secret.exs
 /configure
 /configure.scan
 /cookbooks
+/cover
 /depcomp
+/deps
+/doc
 /elpa/
 /eshell/history
 /eshell/lastdir
@@ -563,6 +571,7 @@ dwsync.xml
 ecf/
 ehthumbs.db
 ehthumbs_vista.db
+erl_crash.dump
 fastlane/Preview.html
 fastlane/readme.md
 fastlane/report.xml
