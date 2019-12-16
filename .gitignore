@@ -33,6 +33,7 @@ $tf/
 *- [Bb]ackup.rdl
 *.7z
 *.DotSettings.user
+*.FASL
 *.GhostDoc.xml
 *.VC.VC.opendb
 *.VC.db
@@ -94,6 +95,8 @@ $tf/
 *.dll
 *.dmg
 *.dotCover
+*.dx32fsl
+*.dx64fsl
 *.dylib
 *.e2e
 *.egg
@@ -101,7 +104,10 @@ $tf/
 *.esproj
 *.evcd
 *.exe
+*.fasl
 *.fsdb
+*.fx32fsl
+*.fx64fsl
 *.gem
 *.gho
 *.gpState
@@ -132,6 +138,8 @@ $tf/
 *.lps
 *.lrs
 *.lrt
+*.lx32fsl
+*.lx64fsl
 *.lzma
 *.mdf
 *.meta
@@ -174,6 +182,7 @@ $tf/
 *.pdb
 *.pem
 *.perspectivev3
+*.pfsl
 *.pfx
 *.pgc
 *.pgd
@@ -223,6 +232,8 @@ $tf/
 *.suo
 *.svclog
 *.swp
+*.sx32fsl
+*.sx64fsl
 *.tar
 *.tfstate
 *.tfstate.*
@@ -255,6 +266,8 @@ $tf/
 *.vspx
 *.vssscc
 *.vtg
+*.wx32fsl
+*.wx64fsl
 *.xar
 *.xccheckout
 *.xcscmblueprint
