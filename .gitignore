@@ -53,6 +53,7 @@ $tf/
 *.aps
 *.asv
 *.autosave
+*.aux
 *.azurePubxml
 *.bak
 *.beam
@@ -98,11 +99,14 @@ $tf/
 *.dx32fsl
 *.dx64fsl
 *.dylib
+*.dyn_hi
+*.dyn_o
 *.e2e
 *.egg
 *.elc
 *.esproj
 *.evcd
+*.eventlog
 *.exe
 *.exe~
 *.ez
@@ -115,6 +119,9 @@ $tf/
 *.gpState
 *.gz
 *.gzip
+*.hi
+*.hie
+*.hp
 *.ilk
 *.iml
 *.iobj
@@ -192,6 +199,7 @@ $tf/
 *.plg
 *.ppk
 *.ppu
+*.prof
 *.psess
 *.publishproj
 *.publishsettings
@@ -298,6 +306,7 @@ $tf/
 .AppleDouble
 .DS_Store
 .DocumentRevisions-V100
+.HTF/
 .LSOverride
 .Spotlight-V100
 .TAGS
@@ -319,6 +328,7 @@ $tf/
 .bzr/
 .c9
 .c9revisions
+.cabal-sandbox/
 .cache
 .cache-main
 .cask/
@@ -339,12 +349,15 @@ $tf/
 .fake/
 .fseventsd
 .fuse_hidden*
+.ghc.environment.*
 .gradle/
 .hg/
 .hgsigs
 .hgsubstate
 .hgtags
 .history
+.hpc
+.hsenv
 .idea/
 .idea/assetWizardSettings.xml
 .idea/caches
@@ -548,6 +561,10 @@ bin/
 bin/*
 bld/
 build/
+cabal-dev
+cabal.project.local
+cabal.project.local~
+cabal.sandbox.config
 captures/
 classes/
 cmake_install.cmake
@@ -565,6 +582,8 @@ csrc/
 csx/
 cwallet.sso.lck
 deploy/
+dist
+dist-*
 dist/
 dist/*
 dlldata.c
