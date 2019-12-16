@@ -493,6 +493,7 @@ GitHub.sublime-settings
 Icon[]
 Makefile
 Makefile.in
+Manifest.toml
 MigrationBackup/
 Network Trash Folder
 OpenCover/
@@ -582,11 +583,18 @@ csrc/
 csx/
 cwallet.sso.lck
 deploy/
+deps/build.log
+deps/deps.jl
+deps/downloads/
+deps/src/
+deps/usr/
 dist
 dist-*
 dist/
 dist/*
 dlldata.c
+docs/build/
+docs/site/
 dw_php_codehinting.config
 dwsync.xml
 ecf/
