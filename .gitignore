@@ -24,6 +24,7 @@ $tf/
 **/*.HTMLClient/GeneratedArtifacts
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
+**/*.rs.bk
 **/.terraform/*
 **/CVS/*
 **/[Pp]ackages/*
@@ -547,6 +548,7 @@ $tf/
 /spec/examples.txt
 /spec/reports/
 /stamp-h1
+/target/
 /test-driver
 /test/tmp/
 /test/version_tmp/
@@ -570,6 +572,7 @@ CMakeFiles
 CMakeLists.txt.user
 CMakeScripts
 CTestTestfile.cmake
+Cargo.lock
 Carthage/Build/
 ClientBin/
 DVEfiles/
