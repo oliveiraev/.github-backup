@@ -9,6 +9,7 @@
 !.vscode/settings.json
 !.vscode/tasks.json
 !?*.[Cc]ache/
+!Build/
 !TAGS/
 !default.mode1v3
 !default.mode2v3
@@ -208,6 +209,7 @@ $tf/
 *.pid.lock
 *.pidb
 *.plg
+*.pm.tdy
 *.ppk
 *.ppu
 *.prof
@@ -395,6 +397,7 @@ $tf/
 .kdev4/
 .kitchen.local.yml
 .kitchen/
+.last_cover_stats
 .lib/
 .loadpath
 .localhistory/
@@ -447,17 +450,28 @@ $tf/
 .yarn-integrity
 .~lock.*#
 /*.gcno
+/*.gz
+/*.zip
+/.build/
 /.emacs.desktop
 /.emacs.desktop.lock
 /.fetch
 /.tgitconfig
 /CVS/*
+/MANIFEST.bak
+/META.json
+/META.yml
+/MYMETA.*
+/Makefile
+/Makefile.old
 /_build
+/_eumm/
 /aclocal.m4
 /ar-lib
 /auto/
 /autoscan-*.log
 /autoscan.log
+/blib/
 /compile
 /config.guess
 /config.h.in
@@ -481,6 +495,7 @@ $tf/
 /min
 /missing
 /network-security.data
+/pm_to_blib
 /py-compile
 /server/
 /stamp-h1
@@ -493,6 +508,8 @@ AutoTest.Net/
 Backup of *.doc*
 Backup*/
 BenchmarkDotNet.Artifacts/
+Build
+Build.bat
 BundleArtifacts/
 CMakeCache.txt
 CMakeFiles
@@ -580,6 +597,7 @@ _ReSharper*/
 _TeamCity*
 _UpgradeReport_Files/
 __pycache__/
+_build/
 _compareTemp
 _deps
 _notes
@@ -607,6 +625,7 @@ compile_commands.json
 config.codekit
 config.codekit3
 configs/
+cover_db/
 coverage
 crash.log
 cscope.files
@@ -650,6 +669,7 @@ gtags.files
 healthchecksdb
 helpsearch*/
 iOSInjectionProject/
+inc/
 install_manifest.txt
 ipch/
 javadoc/
@@ -657,6 +677,7 @@ jspm_packages/
 lerna-debug.log*
 lib-cov
 lib/
+lib/.precomp
 lib_managed/
 lint/generated/
 lint/intermediates/
@@ -677,6 +698,7 @@ nbdist/
 node_modules/
 npm-debug.log*
 nunit-*.xml
+nytprof.out
 octave-workspace
 orleans.codegen.cs
 oscrypto-ca-bundle.crt
