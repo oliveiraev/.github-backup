@@ -169,6 +169,14 @@ $RECYCLE.BIN/
 .VolumeIcon.icns
 ._*
 .apdisk
+.apt_generated/
+.apt_generated_test/
+.autotools
+.axoCover/*
+.buildlog
+.buildpath
+.builds
+.bundle/*
 .bzr/
 .c9
 .c9revisions
@@ -187,6 +195,8 @@ $RECYCLE.BIN/
 .idea/
 .ionide/
 .kdev4/
+.kitchen.local.yml
+.kitchen/
 .lib/
 .loadpath
 .localhistory/
@@ -201,6 +211,7 @@ $RECYCLE.BIN/
 .target
 .tern-project
 .texlipse
+.vagrant
 .vs/
 .vscode/*
 .worksheet
@@ -223,6 +234,7 @@ $RECYCLE.BIN/
 /config.sub
 /configure
 /configure.scan
+/cookbooks
 /depcomp
 /elpa/
 /eshell/history
@@ -293,6 +305,7 @@ autom4te.cache
 backup/
 bh_unicode_properties.cache
 bin/
+bin/*
 bld/
 build/
 classes/
