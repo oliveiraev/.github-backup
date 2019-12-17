@@ -9,31 +9,56 @@
 *.DOT diff=astextplain
 *.PDF diff=astextplain
 *.RTF diff=astextplain
+*.a binary
 *.adoc text eol=lf encoding=utf-8
+*.app binary
 *.bash text eol=lf encoding=utf-8
 *.bat text eol=crlf encoding=utf-8
 *.bibtex text diff=bibtex eol=lf encoding=utf-8
+*.c text diff=c eol=lf encoding=utf-8
+*.c++ text diff=cpp eol=lf encoding=utf-8
+*.cc text diff=cpp eol=lf encoding=utf-8
 *.cmd text eol=crlf encoding=utf-8
+*.cpp text diff=cpp eol=lf encoding=utf-8
 *.csv text eol=lf encoding=utf-8
+*.cxx text diff=cpp eol=lf encoding=utf-8
+*.dll binary
 *.doc diff=astextplain
 *.docx diff=astextplain
 *.dot diff=astextplain
+*.dylib binary
 *.eps binary
+*.exe binary
 *.fish text eol=lf encoding=utf-8
+*.gch binary
 *.gif binary
 *.gz binary
+*.h text diff=c eol=lf encoding=utf-8
+*.h++ text diff=cpp eol=lf encoding=utf-8
+*.hh text diff=cpp eol=lf encoding=utf-8
+*.hpp text diff=cpp eol=lf encoding=utf-8
 *.ico binary
 *.jpeg binary
 *.jpg binary
 *.json text eol=lf encoding=utf-8
+*.la binary
+*.lai binary
+*.lib binary
+*.lo binary
 *.md text eol=lf encoding=utf-8
 *.mustache text eol=lf encoding=utf-8
+*.o binary
+*.obj binary
+*.out binary
 *.patch -text eol=lf encoding=utf-8
+*.pch binary
 *.pdf diff=astextplain
 *.png binary
 *.ps1 text eol=crlf encoding=utf-8
 *.rtf diff=astextplain
 *.sh text eol=lf encoding=utf-8
+*.slo binary
+*.so binary
 *.sql text eol=lf encoding=utf-8
 *.svg text eol=lf encoding=utf-8
 *.tab text eol=lf encoding=utf-8
