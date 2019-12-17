@@ -19,3 +19,6 @@ end_of_line=crlf
 
 [{Makefile,*.mk}]
 indent_style = tab
+
+[*.{json,yaml,yml,tf,py}]
+indent_size = 2
