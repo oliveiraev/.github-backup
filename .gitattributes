@@ -82,6 +82,8 @@
 *.pbxproj merge=union
 *.pch binary
 *.pdf diff=astextplain
+*.pl text diff=perl eol=lf encoding=utf-8
+*.pm text diff=perl eol=lf encoding=utf-8
 *.png binary
 *.properties text eol=lf encoding=utf-8
 *.ps1 text eol=crlf encoding=utf-8
