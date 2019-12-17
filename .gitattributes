@@ -79,6 +79,7 @@
 *.out binary
 *.p binary
 *.patch -text eol=lf encoding=utf-8
+*.pbxproj merge=union
 *.pch binary
 *.pdf diff=astextplain
 *.png binary
@@ -93,6 +94,7 @@
 *.so binary
 *.sql text eol=lf encoding=utf-8
 *.svg text eol=lf encoding=utf-8
+*.swift text diff=swift eol=lf encoding=utf-8
 *.tab text eol=lf encoding=utf-8
 *.tag text eol=lf encoding=utf-8
 *.tagx text eol=lf encoding=utf-8
