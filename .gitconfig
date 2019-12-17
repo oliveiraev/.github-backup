@@ -1,0 +1,42 @@
+# -*- coding: utf-8; mode: gitconfig; -*-
+# vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=gitconfig:
+
+[core]
+    autocrlf = input
+
+[core "whitespace"]
+    blank-at-eol = true
+    space-before-tab = true
+    blank-at-eof = true
+    cr-at-eof = true
+    tabwidth = 4
+
+[color]
+    branch = auto
+    diff = auto
+    grep = auto
+    interactive = auto
+    status = auto
+
+[help]
+    autocorrect = 30
+
+[receive]
+    denyNonFastForwards = true
+    denyDeletes = true
+
+[fetch]
+    prune = true
+
+[merge]
+    ff = false
+
+[pull]
+    ff = false
+    rebase = merges
+
+[push]
+    default = upstream
+
+[rerere]
+    enabled = false
