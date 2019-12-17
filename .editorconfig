@@ -11,5 +11,8 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{bat,cmd,ps1}]
+[*.{bat,cmd,filters,props,ps1,sln,vcxitems}]
+end_of_line=crlf
+
+[*.{cs,db,fs,ls,model,sql,vb,vc,vcx,wix,wma,x}proj}
 end_of_line=crlf
