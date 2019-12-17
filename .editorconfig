@@ -1,0 +1,24 @@
+# -*- coding: utf-8; mode: gitignore; -*-
+# vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=dosini:
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{bat,cmd,filters,props,ps1,sln,vcxitems}]
+end_of_line=crlf
+
+[*.{cs,db,fs,ls,model,sql,vb,vc,vcx,wix,wma,x}proj}
+end_of_line=crlf
+
+[{Makefile,*.mk}]
+indent_style = tab
+
+[*.{json,yaml,yml,tf,py}]
+indent_size = 2
