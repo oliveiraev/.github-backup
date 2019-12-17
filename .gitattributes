@@ -33,6 +33,7 @@
 *.ear binary
 *.eps binary
 *.exe binary
+*.fig binary
 *.fish text eol=lf encoding=utf-8
 *.gch binary
 *.gif binary
@@ -61,11 +62,22 @@
 *.lib binary
 *.lo binary
 *.lua text eol=lf encoding=utf-8
+*.m text eol=lf encoding=utf-8
+*.mat binary
 *.md text eol=lf encoding=utf-8
+*.mdl binary
+*.mdlp binary
+*.mex* binary
+*.mlappinstall binary
+*.mlpkginstall binary
+*.mltbx binary
+*.mn binary
+*.mu text diff=matlab eol=lf encoding=utf-8
 *.mustache text eol=lf encoding=utf-8
 *.o binary
 *.obj binary
 *.out binary
+*.p binary
 *.patch -text eol=lf encoding=utf-8
 *.pch binary
 *.pdf diff=astextplain
@@ -74,7 +86,10 @@
 *.ps1 text eol=crlf encoding=utf-8
 *.rtf diff=astextplain
 *.sh text eol=lf encoding=utf-8
+*.sldd binary
 *.slo binary
+*.slx binary
+*.slxp binary
 *.so binary
 *.sql text eol=lf encoding=utf-8
 *.svg text eol=lf encoding=utf-8
