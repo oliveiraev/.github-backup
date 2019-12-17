@@ -18,30 +18,44 @@
 *.c text diff=c eol=lf encoding=utf-8
 *.c++ text diff=cpp eol=lf encoding=utf-8
 *.cc text diff=cpp eol=lf encoding=utf-8
+*.class binary
 *.cmd text eol=crlf encoding=utf-8
 *.cpp text diff=cpp eol=lf encoding=utf-8
+*.css text diff=css eol=lf encoding=utf-8
 *.csv text eol=lf encoding=utf-8
 *.cxx text diff=cpp eol=lf encoding=utf-8
+*.df text eol=lf encoding=utf-8
 *.dll binary
 *.doc diff=astextplain
 *.docx diff=astextplain
 *.dot diff=astextplain
 *.dylib binary
+*.ear binary
 *.eps binary
 *.exe binary
 *.fish text eol=lf encoding=utf-8
 *.gch binary
 *.gif binary
 *.go -text diff=golang eol=lf encoding=utf-8
+*.gradle text diff=java eol=lf encoding=utf-8
+*.gradle.kts text diff=java eol=lf encoding=utf-8
 *.gz binary
 *.h text diff=c eol=lf encoding=utf-8
 *.h++ text diff=cpp eol=lf encoding=utf-8
 *.hh text diff=cpp eol=lf encoding=utf-8
 *.hpp text diff=cpp eol=lf encoding=utf-8
+*.htm text diff=html eol=lf encoding=utf-8
+*.html text diff=html eol=lf encoding=utf-8
 *.ico binary
+*.jar binary
+*.java text diff=java eol=lf encoding=utf-8
 *.jpeg binary
 *.jpg binary
+*.js text eol=lf encoding=utf-8
 *.json text eol=lf encoding=utf-8
+*.jsp text eol=lf encoding=utf-8
+*.jspf text eol=lf encoding=utf-8
+*.jspx text eol=lf encoding=utf-8
 *.la binary
 *.lai binary
 *.lib binary
@@ -55,6 +69,7 @@
 *.pch binary
 *.pdf diff=astextplain
 *.png binary
+*.properties text eol=lf encoding=utf-8
 *.ps1 text eol=crlf encoding=utf-8
 *.rtf diff=astextplain
 *.sh text eol=lf encoding=utf-8
@@ -63,14 +78,18 @@
 *.sql text eol=lf encoding=utf-8
 *.svg text eol=lf encoding=utf-8
 *.tab text eol=lf encoding=utf-8
+*.tag text eol=lf encoding=utf-8
+*.tagx text eol=lf encoding=utf-8
 *.tar binary
 *.tex text diff=tex eol=lf encoding=utf-8
 *.textile text eol=lf encoding=utf-8
 *.tif binary
 *.tiff binary
+*.tld text eol=lf encoding=utf-8
 *.toml text eol=lf encoding=utf-8
 *.tsv text eol=lf encoding=utf-8
 *.txt text eol=lf encoding=utf-8
+*.war binary
 *.xml text eol=lf encoding=utf-8
 *.yaml text eol=lf encoding=utf-8
 *.yml text eol=lf encoding=utf-8
