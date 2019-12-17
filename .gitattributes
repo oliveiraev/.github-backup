@@ -32,6 +32,7 @@
 *.fish text eol=lf encoding=utf-8
 *.gch binary
 *.gif binary
+*.go -text diff=golang eol=lf encoding=utf-8
 *.gz binary
 *.h text diff=c eol=lf encoding=utf-8
 *.h++ text diff=cpp eol=lf encoding=utf-8
