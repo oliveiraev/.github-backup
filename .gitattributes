@@ -1,0 +1,53 @@
+# -*- coding: utf-8; mode: gitignore; -*-
+# vim: set ai si sta et sw=4 sts=4 fenc=utf-8 nobomb eol ff=unix ft=conf:
+
+* text=auto
+
+*.7z binary
+*.DOC diff=astextplain
+*.DOCX diff=astextplain
+*.DOT diff=astextplain
+*.PDF diff=astextplain
+*.RTF diff=astextplain
+*.adoc text eol=lf encoding=utf-8
+*.bash text eol=lf encoding=utf-8
+*.bat text eol=crlf encoding=utf-8
+*.bibtex text diff=bibtex eol=lf encoding=utf-8
+*.cmd text eol=crlf encoding=utf-8
+*.csv text eol=lf encoding=utf-8
+*.doc diff=astextplain
+*.docx diff=astextplain
+*.dot diff=astextplain
+*.eps binary
+*.fish text eol=lf encoding=utf-8
+*.gif binary
+*.gz binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.json text eol=lf encoding=utf-8
+*.md text eol=lf encoding=utf-8
+*.mustache text eol=lf encoding=utf-8
+*.patch -text eol=lf encoding=utf-8
+*.pdf diff=astextplain
+*.png binary
+*.ps1 text eol=crlf encoding=utf-8
+*.rtf diff=astextplain
+*.sh text eol=lf encoding=utf-8
+*.sql text eol=lf encoding=utf-8
+*.svg text eol=lf encoding=utf-8
+*.tab text eol=lf encoding=utf-8
+*.tar binary
+*.tex text diff=tex eol=lf encoding=utf-8
+*.textile text eol=lf encoding=utf-8
+*.tif binary
+*.tiff binary
+*.toml text eol=lf encoding=utf-8
+*.tsv text eol=lf encoding=utf-8
+*.txt text eol=lf encoding=utf-8
+*.xml text eol=lf encoding=utf-8
+*.yaml text eol=lf encoding=utf-8
+*.yml text eol=lf encoding=utf-8
+*.zip binary
+.gitattributes export-ignore text eol=lf encoding=utf-8
+.gitignore export-ignore text eol=lf encoding=utf-8
