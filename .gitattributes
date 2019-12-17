@@ -24,6 +24,7 @@
 *.css text diff=css eol=lf encoding=utf-8
 *.csv text eol=lf encoding=utf-8
 *.cxx text diff=cpp eol=lf encoding=utf-8
+*.db binary
 *.df text eol=lf encoding=utf-8
 *.dll binary
 *.doc diff=astextplain
@@ -48,6 +49,7 @@
 *.htm text diff=html eol=lf encoding=utf-8
 *.html text diff=html eol=lf encoding=utf-8
 *.ico binary
+*.ipynb text
 *.jar binary
 *.java text diff=java eol=lf encoding=utf-8
 *.jpeg binary
@@ -82,11 +84,22 @@
 *.pbxproj merge=union
 *.pch binary
 *.pdf diff=astextplain
+*.pickle binary
+*.pkl binary
 *.pl text diff=perl eol=lf encoding=utf-8
 *.pm text diff=perl eol=lf encoding=utf-8
 *.png binary
 *.properties text eol=lf encoding=utf-8
 *.ps1 text eol=crlf encoding=utf-8
+*.pxd text diff=python eol=lf encoding=utf-8
+*.py text diff=python eol=lf encoding=utf-8
+*.py3 text diff=python eol=lf encoding=utf-8
+*.pyc binary
+*.pyd binary
+*.pyo binary
+*.pyw text diff=python eol=lf encoding=utf-8
+*.pyx text diff=python eol=lf encoding=utf-8
+*.pyz text diff=python eol=lf encoding=utf-8
 *.rtf diff=astextplain
 *.sh text eol=lf encoding=utf-8
 *.sldd binary
