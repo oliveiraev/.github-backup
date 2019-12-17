@@ -3,6 +3,8 @@
 
 * text=auto
 
+*.3gp binary
+*.3gpp binary
 *.7z binary
 *.DOC diff=astextplain
 *.DOCX diff=astextplain
@@ -11,15 +13,25 @@
 *.RTF diff=astextplain
 *.a binary
 *.adoc text eol=lf encoding=utf-8
+*.ai binary
 *.app binary
+*.as binary
+*.asf binary
+*.asx binary
 *.bash text eol=lf encoding=utf-8
 *.bat text eol=crlf encoding=utf-8
 *.bibtex text diff=bibtex eol=lf encoding=utf-8
+*.bmp binary
+*.bowerrc text eol=lf encoding=utf-8
 *.c text diff=c eol=lf encoding=utf-8
 *.c++ text diff=cpp eol=lf encoding=utf-8
 *.cc text diff=cpp eol=lf encoding=utf-8
 *.class binary
 *.cmd text eol=crlf encoding=utf-8
+*.cnf text eol=lf encoding=utf-8
+*.coffee text eol=lf encoding=utf-8
+*.conf text eol=lf encoding=utf-8
+*.config text eol=lf encoding=utf-8
 *.cpp text diff=cpp eol=lf encoding=utf-8
 *.css text diff=css eol=lf encoding=utf-8
 *.csv text eol=lf encoding=utf-8
@@ -28,62 +40,112 @@
 *.df text eol=lf encoding=utf-8
 *.dll binary
 *.doc diff=astextplain
+*.dockerignore text eol=lf encoding=utf-8
 *.docx diff=astextplain
-*.dot diff=astextplain
+*.dot text eol=lf encoding=utf-8
 *.dylib binary
 *.ear binary
+*.ejs text eol=lf encoding=utf-8
+*.eot binary
 *.eps binary
 *.exe binary
 *.fig binary
 *.fish text eol=lf encoding=utf-8
+*.fla binary
+*.flv binary
 *.gch binary
 *.gif binary
+*.gifv binary
 *.go -text diff=golang eol=lf encoding=utf-8
 *.gradle text diff=java eol=lf encoding=utf-8
 *.gradle.kts text diff=java eol=lf encoding=utf-8
 *.gz binary
 *.h text diff=c eol=lf encoding=utf-8
 *.h++ text diff=cpp eol=lf encoding=utf-8
+*.haml text eol=lf encoding=utf-8
+*.handlebars text eol=lf encoding=utf-8
+*.hbs text eol=lf encoding=utf-8
+*.hbt text eol=lf encoding=utf-8
 *.hh text diff=cpp eol=lf encoding=utf-8
 *.hpp text diff=cpp eol=lf encoding=utf-8
 *.htm text diff=html eol=lf encoding=utf-8
 *.html text diff=html eol=lf encoding=utf-8
 *.ico binary
-*.ipynb text
+*.inc text eol=lf encoding=utf-8
+*.ini text eol=lf encoding=utf-8
+*.ipynb text eol=lf encoding=utf-8
+*.jade text eol=lf encoding=utf-8
 *.jar binary
 *.java text diff=java eol=lf encoding=utf-8
+*.jng binary
+*.jp2 binary
 *.jpeg binary
 *.jpg binary
+*.jpx binary
 *.js text eol=lf encoding=utf-8
 *.json text eol=lf encoding=utf-8
 *.jsp text eol=lf encoding=utf-8
 *.jspf text eol=lf encoding=utf-8
 *.jspx text eol=lf encoding=utf-8
+*.jsx text eol=lf encoding=utf-8
+*.jxr binary
+*.kar binary
 *.la binary
 *.lai binary
+*.latte text
+*.less text
 *.lib binary
 *.lo binary
+*.lock text -diff eol=lf encoding=utf-8
+*.ls text eol=lf encoding=utf-8
 *.lua text eol=lf encoding=utf-8
 *.m text eol=lf encoding=utf-8
+*.m4a binary
+*.m4v binary
+*.map text -diff eol=lf encoding=utf-8
+*.markdown text eol=lf encoding=utf-8
 *.mat binary
 *.md text eol=lf encoding=utf-8
 *.mdl binary
 *.mdlp binary
+*.mdown text eol=lf encoding=utf-8
+*.mdtext text eol=lf encoding=utf-8
+*.mdtxt text eol=lf encoding=utf-8
+*.mdwn text eol=lf encoding=utf-8
 *.mex* binary
+*.mid binary
+*.midi binary
+*.mkd text eol=lf encoding=utf-8
+*.mkdn text eol=lf encoding=utf-8
 *.mlappinstall binary
 *.mlpkginstall binary
 *.mltbx binary
 *.mn binary
+*.mng binary
+*.mov binary
+*.mp3 binary
+*.mp4 binary
+*.mpeg binary
+*.mpg binary
 *.mu text diff=matlab eol=lf encoding=utf-8
 *.mustache text eol=lf encoding=utf-8
+*.njk text eol=lf encoding=utf-8
+*.npmignore text eol=lf encoding=utf-8
 *.o binary
 *.obj binary
+*.od text eol=lf encoding=utf-8
+*.ogg binary
+*.ogv binary
+*.onlydata text eol=lf encoding=utf-8
+*.otf binary
 *.out binary
 *.p binary
 *.patch -text eol=lf encoding=utf-8
 *.pbxproj merge=union
 *.pch binary
 *.pdf diff=astextplain
+*.php text diff=php eol=lf encoding=utf-8
+*.phtml text eol=lf encoding=utf-8
 *.pickle binary
 *.pkl binary
 *.pl text diff=perl eol=lf encoding=utf-8
@@ -91,6 +153,8 @@
 *.png binary
 *.properties text eol=lf encoding=utf-8
 *.ps1 text eol=crlf encoding=utf-8
+*.psb binary
+*.psd binary
 *.pxd text diff=python eol=lf encoding=utf-8
 *.py text diff=python eol=lf encoding=utf-8
 *.py3 text diff=python eol=lf encoding=utf-8
@@ -100,7 +164,13 @@
 *.pyw text diff=python eol=lf encoding=utf-8
 *.pyx text diff=python eol=lf encoding=utf-8
 *.pyz text diff=python eol=lf encoding=utf-8
+*.ra binary
+*.rar binary
+*.rb text diff=ruby eol=lf encoding=utf-8
 *.rtf diff=astextplain
+*.sass text eol=lf encoding=utf-8
+*.scm text eol=lf encoding=utf-8
+*.scss text diff=css eol=lf encoding=utf-8
 *.sh text eol=lf encoding=utf-8
 *.sldd binary
 *.slo binary
@@ -108,7 +178,11 @@
 *.slxp binary
 *.so binary
 *.sql text eol=lf encoding=utf-8
+*.styl text eol=lf encoding=utf-8
 *.svg text eol=lf encoding=utf-8
+*.svgz binary
+*.swc binary
+*.swf binary
 *.swift text diff=swift eol=lf encoding=utf-8
 *.tab text eol=lf encoding=utf-8
 *.tag text eol=lf encoding=utf-8
@@ -119,13 +193,60 @@
 *.tif binary
 *.tiff binary
 *.tld text eol=lf encoding=utf-8
+*.tmpl text eol=lf encoding=utf-8
 *.toml text eol=lf encoding=utf-8
+*.tpl text eol=lf encoding=utf-8
+*.ts text eol=lf encoding=utf-8
 *.tsv text eol=lf encoding=utf-8
+*.tsx text eol=lf encoding=utf-8
+*.ttf binary
+*.twig text eol=lf encoding=utf-8
 *.txt text eol=lf encoding=utf-8
+*.vue text eol=lf encoding=utf-8
 *.war binary
+*.wbmp binary
+*.webm binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.xhtml text diff=html eol=lf encoding=utf-8
 *.xml text eol=lf encoding=utf-8
 *.yaml text eol=lf encoding=utf-8
 *.yml text eol=lf encoding=utf-8
 *.zip binary
+*COPYRIGHT* text eol=lf encoding=utf-8
+*README* text eol=lf encoding=utf-8
+.babelrc text eol=lf encoding=utf-8
+.browserslistrc text eol=lf encoding=utf-8
+.csslintrc text eol=lf encoding=utf-8
+.editorconfig text eol=lf encoding=utf-8
+.env text eol=lf encoding=utf-8
+.eslintrc text eol=lf encoding=utf-8
 .gitattributes export-ignore text eol=lf encoding=utf-8
+.gitconfig text export-ignore eol=lf encoding=utf-8
 .gitignore export-ignore text eol=lf encoding=utf-8
+.htaccess text eol=lf encoding=utf-8
+.htmlhintrc text eol=lf encoding=utf-8
+.jscsrc text eol=lf encoding=utf-8
+.jshintignore text eol=lf encoding=utf-8
+.jshintrc text eol=lf encoding=utf-8
+.slugignore text eol=lf encoding=utf-8
+.stylelintrc text eol=lf encoding=utf-8
+AUTHORS text eol=lf encoding=utf-8
+CHANGELOG text eol=lf encoding=utf-8
+CHANGES text eol=lf encoding=utf-8
+CONTRIBUTING text eol=lf encoding=utf-8
+COPYING text eol=lf encoding=utf-8
+Dockerfile text eol=lf encoding=utf-8
+INSTALL text eol=lf encoding=utf-8
+LICENSE text eol=lf encoding=utf-8
+Makefile text eol=lf encoding=utf-8
+NEWS text eol=lf encoding=utf-8
+Procfile text eol=lf encoding=utf-8
+TODO text eol=lf encoding=utf-8
+browserslist text eol=lf encoding=utf-8
+copyright text eol=lf encoding=utf-8
+license text eol=lf encoding=utf-8
+makefile text eol=lf encoding=utf-8
+package-lock.json text -diff eol=lf encoding=utf-8
+readme text eol=lf encoding=utf-8
