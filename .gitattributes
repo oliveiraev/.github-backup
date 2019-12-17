@@ -60,6 +60,7 @@
 *.lai binary
 *.lib binary
 *.lo binary
+*.lua text eol=lf encoding=utf-8
 *.md text eol=lf encoding=utf-8
 *.mustache text eol=lf encoding=utf-8
 *.o binary
