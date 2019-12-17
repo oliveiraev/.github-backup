@@ -16,3 +16,6 @@ end_of_line=crlf
 
 [*.{cs,db,fs,ls,model,sql,vb,vc,vcx,wix,wma,x}proj}
 end_of_line=crlf
+
+[{Makefile,*.mk}]
+indent_style = tab
